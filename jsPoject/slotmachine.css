@@ -1,0 +1,46 @@
+
+
+
+
+img {
+     position : fixed;
+     left : 0;
+     top : 0;
+     height : 100vh;
+     width : auto;
+
+}
+
+
+html , body {
+    height : 100%;
+
+}
+
+
+
+body {
+    background : linear-gradient(45deg , grey 0% , lightgray 100%);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.slot  {
+    width: 3.5 * 79px;
+    height: 3 * 79px;
+    border : 1px solid black;
+    display : flex;
+    justify-content : space-between;
+    padding : 0.3 * 79px;
+    
+
+
+    .reel {
+        border : 1px solid black;
+        width :    79px;
+        height : 3 * 79px  ;
+        background-image : url(https://assets.codepen.io/439000/slotreel.webp);
+    }
+}
