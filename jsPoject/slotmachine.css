@@ -1,7 +1,3 @@
-
-
-
-
 img {
      position : fixed;
      left : 0;
@@ -28,19 +24,22 @@ body {
 
 
 .slot  {
-    width: 3.5 * 79px;
-    height: 3 * 79px;
+    width: calc(3.5 * 79px);
+    height: calc(3 * 79px);
     border : 1px solid black;
     display : flex;
     justify-content : space-between;
-    padding : 0.3 * 79px;
+    padding : calc(0.3 * 79px);
     
 
 
     .reel {
         border : 1px solid black;
         width :    79px;
-        height : 3 * 79px  ;
+        height : calc(3 * 79px);
         background-image : url(https://assets.codepen.io/439000/slotreel.webp);
+        background-repeat : repeat-y;
+        background-position : 0 30px;
+
     }
 }
